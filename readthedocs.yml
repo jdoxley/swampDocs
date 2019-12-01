@@ -1,6 +1,6 @@
 version: 2
 mkdocs:
-  configuration: swampMissionFile/docs/mkdocs.yml
+  configuration: swampMissionFile/mkdocs.yml
 formats: all
 python:
   install:
