@@ -4,6 +4,7 @@ theme:
 extra_css:
   - 'stylesheets/extra.css'
 site_dir: ../site
+docs_dir: ./docs
 markdown_extensions:
   - pymdownx.arithmatex
   - pymdownx.betterem:
