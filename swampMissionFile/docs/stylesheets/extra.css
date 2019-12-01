@@ -1,0 +1,40 @@
+.md-main{
+    color: #F5F5F5 !important;
+    background-color: #212121 !important;
+}
+
+.md-typeset code {
+ background-color:#424242 !important;
+ color: black !important;
+}
+
+.md-typeset h1{
+    color: white !important;
+}
+
+.md-typeset hr{
+    border-bottom: .18rem dotted gray;
+}
+
+.md-nav__list {
+    background-color: #212121 !important;
+}
+
+.md-nav__title {
+    background-color: #212121 !important;
+    color:white !important;
+}
+
+.md-nav__title:before {
+    background-color: #212121 !important;
+    color:white !important;
+}
+
+.linenos {
+    color: #F5F5F5 !important;
+    background-color: #313131 !important;
+}
+
+.codehilite {
+    background-color: #424242 !important;
+}
