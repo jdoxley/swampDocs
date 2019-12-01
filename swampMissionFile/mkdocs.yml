@@ -3,6 +3,7 @@ theme:
   name: 'material'
 extra_css:
   - 'stylesheets/extra.css'
+site_dir: ./site
 markdown_extensions:
   - pymdownx.arithmatex
   - pymdownx.betterem:
