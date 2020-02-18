@@ -23,3 +23,5 @@ markdown_extensions:
   - admonition
   - codehilite:
       linenums: true
+  - toc:
+      permalink: true
