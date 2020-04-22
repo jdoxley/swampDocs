@@ -1,6 +1,19 @@
-site_name: Swamp Mission File Changelogs
+site_name: Swamp Changelogs
+dev_addr: 192.168.1.127:5999
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/
 theme:
   name: 'material'
+  icon:
+    logo: material/library
+    repo: material/library
+  palette:
+    primary: indigo
+    accent: deep purple
+  features:
+    - instant
 extra_css:
   - 'stylesheets/extra.css'
 site_dir: ../site
@@ -24,6 +37,8 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tilde
   - admonition
+  - tables
+  - attr_list
   - codehilite:
       linenums: true
   - toc:

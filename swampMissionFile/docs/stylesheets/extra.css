@@ -1,6 +1,20 @@
-.md-main{
-    color: #F5F5F5 !important;
-    background-color: #212121 !important;
+:root{
+    --md-default-bg-color: #212121;
+    --md-default-fg-color: #F5F5F5;
+    --md-default-fg-color--light: grey;
+}
+
+.md-footer {
+	color: var(--md-default-fg-color);
+	background-color: var(--md-default-bg-color);
+}
+
+.md-typeset table:not([class]) th {
+    color: var(--md-default-fg-color);
+}
+
+.md-typeset table:not([class]) {
+    box-shadow: 0 .3rem .5rem rgba(0,0,0,.4),0 0 .05rem rgba(0,0,0,.1);
 }
 
 .md-typeset code {
@@ -9,7 +23,7 @@
 }
 
 .md-typeset h1{
-    color: white !important;
+    color: var(--md-default-fg-color);
 }
 
 .md-typeset hr{
@@ -17,24 +31,36 @@
 }
 
 .md-nav__list {
-    background-color: #212121 !important;
+    background-color: var(--md-default-bg-color);
 }
 
 .md-nav__title {
-    background-color: #212121 !important;
-    color:white !important;
+    background-color: var(--md-default-bg-color);
+    color:var(--md-default-fg-color);
 }
 
 .md-nav__title:before {
-    background-color: #212121 !important;
-    color:white !important;
+    background-color: var(--md-default-bg-color);
+    color:var(--md-default-fg-color);
 }
 
 .linenos {
-    color: #F5F5F5 !important;
+    color: var(--md-default-fg-color);
     background-color: #313131 !important;
 }
 
 .codehilite {
     background-color: #424242 !important;
+} 
+
+.small {
+    width: 150px;
+}
+
+.xsmall {
+    width: 80px;
+}
+
+.tiny {
+    width: 35px;
 }
